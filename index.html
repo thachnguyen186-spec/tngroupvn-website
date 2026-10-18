@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TNG International Trading</title>
+  <meta name="description" content="TNG International Trading Limited Company builds private self-improvement apps for iPhone: Unhooked, Daybreak and Temper.">
+  <style>
+    :root {
+      --bg: #f7f7f9; --surface: #ffffff; --text: #16161d; --muted: #5b5b6b;
+      --line: #e4e4ea; --accent: #5b3fd6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0d0d13; --surface: #16161f; --text: #ececf2; --muted: #a0a0b2; --line: #26263a; --accent: #9d86ff; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+    header { border-bottom: 1px solid var(--line); background: var(--surface); }
+    header .wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 16px; padding-bottom: 16px; gap: 16px; }
+    .brand { font-weight: 700; letter-spacing: .02em; }
+    nav a { color: var(--muted); text-decoration: none; margin-left: 20px; font-size: 15px; }
+    nav a:hover { color: var(--text); }
+    .hero { padding: 72px 0 48px; }
+    .hero h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.15; margin: 0 0 16px; }
+    .hero p { color: var(--muted); font-size: 18px; max-width: 640px; margin: 0; }
+    section { padding: 40px 0; }
+    h2 { font-size: 24px; margin: 0 0 24px; }
+    .apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
+    .card h3 { margin: 0 0 4px; font-size: 20px; }
+    .tag { color: var(--accent); font-size: 14px; font-weight: 600; margin: 0 0 12px; }
+    .card p { margin: 0 0 16px; color: var(--muted); }
+    .links a { color: var(--accent); font-size: 14px; margin-right: 16px; text-decoration: none; }
+    .links a:hover { text-decoration: underline; }
+    .info { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .info dt { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 4px; }
+    .info dd { margin: 0 0 20px; }
+    .info a { color: var(--accent); }
+    footer { border-top: 1px solid var(--line); padding: 24px 0; color: var(--muted); font-size: 14px; }
+    @media (max-width: 560px) { nav { display: none; } .hero { padding: 48px 0 32px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">TNG International Trading</div>
+      <nav><a href="#apps">Apps</a><a href="#company">Company</a><a href="#contact">Contact</a></nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <h1>Private self-improvement apps for everyday life.</h1>
+      <p>TNG International Trading Limited Company is a Vietnamese company that designs and publishes mobile apps that help people break unwanted habits and build healthier routines.</p>
+    </div>
+
+    <section id="apps">
+      <h2>Our apps</h2>
+      <div class="apps">
+        <div class="card">
+          <h3>Unhooked</h3>
+          <p class="tag">Quit habits &amp; urges</p>
+          <p>A private 90-day plan to beat urges, build a streak and take back control. Daily lessons, a panic button for difficult moments and progress tracking.</p>
+          <div class="links">
+            <a href="https://docs.google.com/document/d/1qUh27lOOu7U7gzY_r_unFcK_xvPtOQuK/view">Privacy Policy</a>
+            <a href="https://docs.google.com/document/d/1WoQw2fhLmZNB6T5Ja80uJCAuJ3W3ACFg/view">Terms of Use</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Daybreak</h3>
+          <p class="tag">Quit or cut back on alcohol</p>
+          <p>A step-by-step program to drink less or stop drinking, with a drink log, daily check-ins, short lessons and tools for cravings.</p>
+          <div class="links">
+            <a href="https://docs.google.com/document/d/1RJjkTCGZI2IOLHPW_uePDfMMifLeuHBJ/view">Privacy Policy</a>
+            <a href="https://docs.google.com/document/d/1IBxl04H3BeaHjeRzumF-tFKK8de6f78_/view">Terms of Use</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Temper</h3>
+          <p class="tag">Anger control &amp; calm</p>
+          <p>Practical tools to cool down in the moment and understand what sets you off, with guided resets, reframing exercises and weekly recaps.</p>
+          <div class="links">
+            <a href="https://docs.google.com/document/d/1PqNsyZiYiUAI1wsK0IWxxB18a5jHUQaF/view">Privacy Policy</a>
+            <a href="https://docs.google.com/document/d/1yqywjBFJSeqvtW_3gmlT0UpCu-V22SnU/view">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="company">
+      <h2>Company information</h2>
+      <dl class="info">
+        <div>
+          <dt>Legal name</dt>
+          <dd>TNG INTERNATIONAL TRADING LIMITED COMPANY</dd>
+          <dt>Country</dt>
+          <dd>Vietnam</dd>
+        </div>
+        <div>
+          <dt>Registered address</dt>
+          <dd>187 Lane Xa Dan 2, Xa Dan Street<br>Van Mieu - Quoc Tu Giam Ward<br>Hanoi 10000, Vietnam</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <dl class="info">
+        <div>
+          <dt>Support and business enquiries</dt>
+          <dd><a href="mailto:thachnn@tngroupvn.com">thachnn@tngroupvn.com</a></dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">&copy; 2026 TNG International Trading Limited Company. All rights reserved.</div>
+  </footer>
+</body>
+</html>
